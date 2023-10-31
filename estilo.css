@@ -1,0 +1,166 @@
+/* Estilos para o corpo do site */
+body {
+    max-width: 1200px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    background: #D3D3D3;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: green;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgtopo{
+    float: center;
+
+
+}
+
+#menu{
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    color: blue; 
+}
+/* Propaganda central */
+#propaganda{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+     padding: 10px;
+}
+
+/* Estilos para o Corpo principal */
+.corpo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+#destaque{
+    background: white;
+    width: 900px;
+    left: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+}
+
+.titulo {
+   position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo com transparência */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+    font-weight: bold; /* Negrito, se necessário */
+}
+/* Cor do texto */
+#propagandalateral{
+    background: white;
+    width: 230px;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    float: right;
+}
+
+#titulolateral{
+margin: 15px;
+}
+
+#imagemlateral1{
+    background: #D3D3D3;
+    width: 220px;
+    right: 0;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    float: right;
+}
+
+
+.imagem1{
+    background: #D3D3D3;
+    width: 580px;
+    right: 400px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+
+.imagem2{
+background: #D3D3D3;
+float: left;
+margin: 0 auto;
+padding: 10px 10px 0px 0px;
+width: 290px;
+}
+.imagem3{
+background: #D3D3D3;
+float: left;
+margin: 0 auto;
+padding: 6px 10px 10px 0px;
+width: 290px;
+}
+
+.imagem3{
+background: #D3D3D3;
+float: left;
+margin: 0 auto;
+padding: 6px 10px 10px 0px;
+width: 290px;
+}
+/* Centraliza horizontalmente *
+.propaganda2{
+    max-width: 900px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 10px;
+}
+
+/* Estilos para a matéria principal */
+.main-article {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para as notícias ao lado */
+.side-article {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para cada artigo */
+.article {
+    margin-bottom: 20px;
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
